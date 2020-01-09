@@ -4,22 +4,18 @@
   --primary-grey: rgb(148, 148, 148);
   --secondary-grey: rgb(238, 238, 238);
 
-  --primary-border: 1px solid var(--primary-grey);
   --secondary-border: 1px solid var(--secondary-grey);
 
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .app-content-container {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 40px;
 }
 
-/* HEADER */
-
 .header-container {
-  /* text-align: center; */
   height: 70px;
   width: 100%;
   border-bottom: var(--secondary-border);
@@ -33,80 +29,11 @@
   font-size: 24px;
   color: var(--primary-red);
   padding-left: 40px;
-  font-weight: bold;
-}
-
-.venue-cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-/* VENUE CARD */
-
-.venue-card {
-  padding: 20px;
-  border: var(--primary-border);
-  margin-bottom: 8px;
-  width: 345px;
-  flex-grow: 1;
-}
-
-.venue-card-name-text {
-  font-size: 20px;
-  color: var(--primary-black);
-  padding-bottom: 4px;
-}
-
-.venue-card-address-text {
-  font-size: 16px;
-  color: var(--primary-black);
-  opacity: 0.8;
-  padding-bottom: 8px;
-}
-
-.venue-card-listing-text {
-  font-size: 16px;
-  color: var(--primary-black);
-}
-
-/* PAGINATION */
-
-.pagination-container {
-  display: flex;
-  justify-content: center;
-}
-
-.pagination-link-container {
-  background-color: var(--secondary-grey);
-  color: var(--primary-black);
-  margin: 2px;
-}
-
-.pagination-link-container-active {
-  background-color: var(--primary-red);
-  color: white;
-  margin: 2px;
-  font-weight: bold;
-}
-
-.pagination-link-container :hover {
-  background-color: var(--primary-red);
-  color: white;
   cursor: pointer;
-  font-weight: bold;
 }
 
-.pagination-link-container-active :hover {
-  background-color: var(--primary-red);
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-}
 
-.pagination-link {
-  padding: 8px 16px;
-}
+
+
+
 

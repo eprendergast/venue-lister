@@ -1,0 +1,36 @@
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-link-container {
+    background-color: var(--secondary-grey);
+    color: var(--primary-black);
+    margin: 2px;
+  }
+  
+  .pagination-link-container-active {
+    background-color: var(--primary-red);
+    color: white;
+    margin: 2px;
+    font-weight: bold;
+  }
+  
+  .pagination-link-container :hover {
+    background-color: var(--primary-red);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .pagination-link-container-active :hover {
+    background-color: var(--primary-red);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .pagination-link {
+    padding: 8px 16px;
+  }

@@ -40,7 +40,9 @@ const App = () => {
   return (
     <div>
       <div className='header-container'>
-        <div className='header-text'>VenueLister</div>
+        <div className='header-text' onClick={() => setCurrentPage(1)}>
+          VenueLister
+        </div>
       </div>
       <div className='app-content-container'>
         <VenueCardsContainer venues={currentVenues} loading={loading} />

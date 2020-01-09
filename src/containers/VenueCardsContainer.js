@@ -1,5 +1,6 @@
 import React from 'react'
 import VenueCard from '../components/VenueCard'
+import './VenueCardsContainer.css'
 
 const VenueCardsContainer = ({ venues, loading }) => {
   return (

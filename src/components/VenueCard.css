@@ -1,0 +1,36 @@
+.venue-card {
+    border: var(--secondary-border);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 345px;
+    height: 210px;
+  }
+  
+  .venue-card-header {
+    padding: 16px;
+    background-color: var(--secondary-grey);
+  }
+  
+  .venue-card-name-text {
+    font-size: 16px;
+    color: var(--primary-black);
+    padding-bottom: 4px;
+  }
+  
+  .venue-card-address-text {
+    font-size: 14px;
+    color: var(--primary-black);
+    opacity: 0.8;
+  }
+  
+  .venue-card-listing-text {
+    font-size: 14px;
+    color: var(--primary-black);
+    padding: 16px;
+  }
+  
+  .venue-card-footer {
+    padding: 16px;
+  }

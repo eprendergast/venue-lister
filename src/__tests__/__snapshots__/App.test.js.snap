@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="header-container"
+  >
+    <div
+      className="header-text"
+    >
+      VenueLister
+    </div>
+  </div>
+  <div
+    className="app-content-container"
+  >
+    <div
+      className="venue-cards-container"
+    />
+    <div
+      className="pagination-container"
+    >
+      <div
+        className="pagination-link-container"
+      >
+        <div
+          className="pagination-link"
+          onClick={[Function]}
+        >
+          Prev
+        </div>
+      </div>
+      <div
+        className="pagination-link-container"
+      >
+        <div
+          className="pagination-link"
+          onClick={[Function]}
+        >
+          Next
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

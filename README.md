@@ -1,4 +1,4 @@
-## Venue Lister
+# Venue Lister
 
 Venue Lister is a small React.js application which displays a card style summary of venue data retrieved from a [JSON API](https://venue-lister.herokuapp.com/venues). Pagination allows the user to navigate between the 5 pages of venues.  <br/>
 
@@ -12,6 +12,13 @@ Launches the Jest test suite in the terminal. A small test suite was created for
 'npm test' launches the test runner in the interactive watch mode.<br />
 
 ## Design Decisions
+
+The bulk of the logic for the application is container within App.js. App is a functional component which uses hooks to manage state in order to reduce the verbosity of using 'setState' and 'this'. <br/>
+
+The 'useEffect' hook makes a request to get the venue data from the API endpoint when the application is launched. The API logic is contained in a separate file, API.js, which helps reduce the length of the App.js file and encapsulates all API logic into one file. <br/>
+
+
+
 
 
 

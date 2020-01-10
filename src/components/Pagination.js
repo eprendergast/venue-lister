@@ -4,7 +4,7 @@ import './Pagination.css'
 const Pagination = ({
   pageNumbers,
   currentPage,
-  paginate,
+  setCurrentPage,
   nextPage,
   previousPage
 }) => {
@@ -24,7 +24,7 @@ const Pagination = ({
               : 'pagination-link-container'
           }
         >
-          <div className='pagination-link' onClick={() => paginate(number)}>
+          <div className='pagination-link' onClick={() => setCurrentPage(number)}>
             {number}
           </div>
         </div>

@@ -3,12 +3,13 @@ import API from './API.js'
 import './App.css'
 import VenueCardsContainer from './containers/VenueCardsContainer'
 import Pagination from './components/Pagination'
+import LoadingContainer from './containers/LoadingContainer.js'
 
 const App = () => {
   const [venues, setVenues] = useState([])
   const [venuesPerPage] = useState(10)
   const [currentPage, setCurrentPage] = useState(1)
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
 
   const indexOfLastVenue = currentPage * venuesPerPage
   const indexOfFirstVenue = indexOfLastVenue - venuesPerPage
@@ -21,8 +22,6 @@ const App = () => {
     pageNumbers.push(i)
   }
 
-  const paginate = pageNumber => setCurrentPage(pageNumber)
-
   const nextPage = () => {
     currentPage !== Math.max(...pageNumbers) && setCurrentPage(currentPage + 1)
   }
@@ -32,7 +31,6 @@ const App = () => {
   }
 
   useEffect(() => {
-    setLoading(true)
     API.getVenues().then(setVenues)
     setLoading(false)
   }, [])
@@ -44,16 +42,21 @@ const App = () => {
           VenueLister
         </div>
       </div>
-      <div className='app-content-container'>
-        <VenueCardsContainer venues={currentVenues} loading={loading} />
-        <Pagination
-          pageNumbers={pageNumbers}
-          currentPage={currentPage}
-          paginate={paginate}
-          nextPage={nextPage}
-          previousPage={previousPage}
-        />
-      </div>
+
+      {loading === true ? (
+        <LoadingContainer/>
+      ) : (
+        <div className='app-content-container'>
+          <VenueCardsContainer venues={currentVenues} />
+          <Pagination
+            pageNumbers={pageNumbers}
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+            nextPage={nextPage}
+            previousPage={previousPage}
+          />
+        </div>
+      )}
     </div>
   )
 }

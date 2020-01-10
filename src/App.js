@@ -46,6 +46,7 @@ const App = () => {
       {loading === true ? (
         <LoadingContainer/>
       ) : (
+        
         <div className='app-content-container'>
           <VenueCardsContainer venues={currentVenues} />
           <Pagination

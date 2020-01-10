@@ -24,7 +24,10 @@ const Pagination = ({
               : 'pagination-link-container'
           }
         >
-          <div className='pagination-link' onClick={() => setCurrentPage(number)}>
+          <div
+            className='pagination-link'
+            onClick={() => setCurrentPage(number)}
+          >
             {number}
           </div>
         </div>

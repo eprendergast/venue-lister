@@ -8,8 +8,7 @@ Launches the application in the browser. Open [http://localhost:3000](http://loc
 
 ### `npm test`
 
-Launches the Jest test suite in the terminal. A small test suite was created for this project using Jest.
-'npm test' launches the test runner in the interactive watch mode.<br />
+Launches the Jest test runner in interactive watch mode. Snapshot tests were written for all main components and to test the 'getVenues' function in API.js. (Please note that testing was not something that was part of my curriculum at Flatiron School so these tests may not be 'best practice', but it is something I'm working on learning now!) <br />
 
 ## Design Decisions
 

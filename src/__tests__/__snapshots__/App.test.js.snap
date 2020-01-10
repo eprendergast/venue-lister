@@ -13,34 +13,20 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="app-content-container"
+    className="loading-container"
   >
     <div
-      className="venue-cards-container"
-    />
-    <div
-      className="pagination-container"
+      className="css-0"
     >
       <div
-        className="pagination-link-container"
-      >
-        <div
-          className="pagination-link"
-          onClick={[Function]}
-        >
-          Prev
-        </div>
-      </div>
+        className="css-ddt2sc"
+      />
       <div
-        className="pagination-link-container"
-      >
-        <div
-          className="pagination-link"
-          onClick={[Function]}
-        >
-          Next
-        </div>
-      </div>
+        className="css-xqjsju"
+      />
+      <div
+        className="css-1r9oxba"
+      />
     </div>
   </div>
 </div>

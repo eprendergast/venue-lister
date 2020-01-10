@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="venue-card"
+>
+  <div
+    className="venue-card-header"
+  >
+    <div
+      className="venue-card-name-text"
+    >
+      Novotel Suites Den Haag City Center
+    </div>
+    <div
+      className="venue-card-address-text"
+    >
+      Grote Marktstraat 46 | The Hague | 2511
+    </div>
+  </div>
+  <div
+    className="venue-card-listing-text"
+  >
+    Novotel Suites Den Haag City Center is located in the Nieuwe Haagsche Passage shopping arcade in the center of The Hague. The hotel has 118 suites for the guests, all are well equipped with all modern amenities.
+  </div>
+</div>
+`;

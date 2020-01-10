@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="pagination-container"
+>
+  <div
+    className="pagination-link-container"
+  >
+    <div
+      className="pagination-link"
+      onClick={[Function]}
+    >
+      Prev
+    </div>
+  </div>
+  <div
+    className="pagination-link-container"
+  >
+    <div
+      className="pagination-link"
+      onClick={[Function]}
+    >
+      1
+    </div>
+  </div>
+  <div
+    className="pagination-link-container"
+  >
+    <div
+      className="pagination-link"
+      onClick={[Function]}
+    >
+      2
+    </div>
+  </div>
+  <div
+    className="pagination-link-container"
+  >
+    <div
+      className="pagination-link"
+      onClick={[Function]}
+    >
+      3
+    </div>
+  </div>
+  <div
+    className="pagination-link-container"
+  >
+    <div
+      className="pagination-link"
+      onClick={[Function]}
+    >
+      4
+    </div>
+  </div>
+  <div
+    className="pagination-link-container"
+  >
+    <div
+      className="pagination-link"
+      onClick={[Function]}
+    >
+      5
+    </div>
+  </div>
+  <div
+    className="pagination-link-container"
+  >
+    <div
+      className="pagination-link"
+      onClick={[Function]}
+    >
+      Next
+    </div>
+  </div>
+</div>
+`;
